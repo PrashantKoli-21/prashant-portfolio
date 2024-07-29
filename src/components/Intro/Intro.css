@@ -1,0 +1,216 @@
+.i-wrapper {
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+.i-name > :nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name > :nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.i-name > :nth-child(3) {
+    font-weight: 100;
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.i-button {
+    width: 6rem;
+    height: 2rem;
+}
+.i-icons {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+.i-icons > * {
+    transform: scale(0.5);
+}
+.i-icons > * :hover {
+    cursor: pointer;
+}
+
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+.i-right > * {
+    position: absolute;
+    z-index: 1;
+}
+.i-right > :nth-child(1) {
+    transform: scale(0.698);
+    left: -10%;
+    top: -9%;
+}
+.i-right > :nth-child(2) {
+    top: -4.6rem;
+    transform: scale(0.67);
+    left: -3rem;
+}
+.i-right > :nth-child(3) {
+    transform: scale(1.4);
+    left: 18%;
+}
+.i-right > :nth-child(4) {
+    transform: scale(0.6);
+    top: -15%;
+    left: -15%;
+    border-radius: 50%;
+    padding: 0;
+}
+.web-developer {
+    top: -1rem;
+    left: 19rem;
+}
+.mobile-developer {
+    top: 18rem;
+    left: 0rem;
+}
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+}
+.blue {
+    background: #c1f5ff;
+    top: 17rem;
+    width: 21rem;
+    height: 11rem;
+    left: -9rem;
+}
+/* .mobileDeveloper-motion {
+    left: 0%;
+} */
+
+@media screen and (max-width: 1200px) {
+    .i-right > :nth-child(1) {
+        transform: scale(0.55);
+        /* left: -20%; */
+        left: -5.2rem;
+    }
+    .i-right > :nth-child(2) {
+        /* top: -4.6rem; */
+        transform: scale(0.48);
+        left: -6rem;
+    }
+    .i-right > :nth-child(3) {
+        transform: scale(1);
+        /* left: 24%; */
+        left: 6.3rem;
+    }
+    .i-right > :nth-child(4) {
+        transform: scale(0.5);
+        top: -12%;
+    }
+    .web-developer {
+        top: 2rem !important;
+        /* left: 62% !important; */
+    }
+    .mobile-developer {
+        top: 16rem !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .i-right > :nth-child(1) {
+        transform: scale(0.45);
+        top: -4.5rem;
+        left: -6.2rem;
+    }
+    .i-right > :nth-child(2) {
+        transform: scale(0.38);
+        top: -8rem;
+        left: -7rem;
+    }
+    .i-right > :nth-child(3) {
+        transform: scale(0.75);
+        top: -2.5rem;
+        left: 5rem;
+    }
+    .web-developer {
+        top: 1rem !important;
+    }
+    .mobile-developer {
+        top: 12rem !important;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .i-right > :nth-child(1) {
+        left: -8rem;
+    }
+    .i-right > :nth-child(2) {
+        left: -9rem;
+    }
+    .i-right > :nth-child(3) {
+        left: 3rem;
+    }
+    .i-right > :nth-child(4) {
+        transform: scale(0.4);
+        top: -12%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .i-right > :nth-child(1) {
+        left: -9rem;
+        transform: scale(0.3);
+    }
+    .i-right > :nth-child(2) {
+        transform: scale(0.25);
+        left: -10rem;
+    }
+    .i-right > :nth-child(3) {
+        transform: scale(0.6);
+        top: -3.25rem;
+        left: 2rem;
+    }
+    .i-right > :nth-child(4) {
+        transform: scale(0.35);
+    }
+    .web-developer {
+        top: 2.8rem !important;
+    }
+    .mobile-developer {
+        top: 10.4rem !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .i-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .i-right {
+        display: none;
+    }
+    .i-icons {
+        margin-top: 0;
+    }
+}

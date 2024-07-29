@@ -1,0 +1,42 @@
+.mycssExpertiese {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30rem;
+}
+.mycssExpertiese span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.mycssExpertiese span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.mycssExpertiese .swiper {
+    overflow: visible!important;
+}
+.mycssExpertiese-slider {
+    margin-top: 3rem;
+    width: 100%;
+}
+.mycssExpertiese-slider .swiper-slide {
+    width: 20rem;
+}
+.mycssExpertiese img {
+    width: 29rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
+
+@media screen and (max-width: 1900px) {
+    .mycssExpertiese-slider .swiper-slide {
+        width: calc(50vw - 22%) !important;
+        margin-right: 2rem !important;
+    }
+    .mycssExpertiese img {
+        width: calc(50vw - 56%);
+    }
+}

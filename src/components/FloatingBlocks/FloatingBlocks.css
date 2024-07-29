@@ -1,0 +1,109 @@
+.floatingBlocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 4.5rem;
+    background: white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+}
+/* .floatingBlocks > img {
+    transform: scale(0.4);
+} */
+.boyImage > img {
+    transform: scale(0.4);
+}
+/* .floatingBlocks > span {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+} */
+ .applicationDeveloper > span {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .floatingBlocks {
+        padding: 0px 16px 0px 0px;
+        height: 4rem;
+        width: 8rem;
+    }
+    .boyImage {
+        display: flex;
+        position: relative;
+        right: 1rem;
+    }
+    .applicationDeveloper {
+            /* left: 5rem; */
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    /* gap: 0rem; */
+    right: 1.5rem;
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .floatingBlocks {
+        height: 3rem;
+        width: 6rem;
+    }
+    .boyImage {
+        right: 1.5rem;
+    }
+    .boyImage > img {
+        transform: scale(0.3);
+    }
+    .applicationDeveloper {
+        right: 2.9rem;
+    }
+    .applicationDeveloper > span {
+        /* font-family: sans-serif; */
+        font-size: 14px;
+        /* color: black; */
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .floatingBlocks {
+        height: 2.5rem;
+        width: 4.5rem;
+    }
+    .boyImage {
+        right: 1.8rem;
+    }
+    .applicationDeveloper {
+        right: 3.7rem;
+    }
+    .applicationDeveloper > span {
+        /* font-family: sans-serif; */
+        font-size: 11px;
+        /* color: black; */
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .floatingBlocks {
+        height: 2rem;
+        width: 3rem;
+        border-radius: 7px;
+    }
+    .boyImage {
+        right: 2.2rem;
+    }
+    .boyImage > img {
+        transform: scale(0.18);
+    }
+    .applicationDeveloper {
+        right: 4.5rem;
+    }
+    .applicationDeveloper > span {
+        /* font-family: sans-serif; */
+        font-size: 8px;
+        /* color: black; */
+    }
+}

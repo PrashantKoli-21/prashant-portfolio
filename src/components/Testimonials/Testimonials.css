@@ -1,0 +1,102 @@
+.t-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7rem;
+    gap: 2rem;
+    padding: 0 3rem 0 3rem;
+    height: 100vh;
+    position: relative;
+}
+.t-heading {
+    align-self: start;
+}
+.t-heading > * {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-heading span:nth-of-type(2) {
+    color: var(--orange);
+}
+.t-blur1 {
+    left: 38rem;
+    top: 16rem;
+    background: var(--purple);
+}
+.t-blur2 {
+    top: 9rem;
+    left: 0;
+    background: skyblue;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 60%;
+    height: 70%;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+.t-reviewer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 0.5rem;
+}
+.t-reviewer > img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.testimonial > span {
+    color: var(--gray);
+    text-align: center;
+}
+.t-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+.t-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t-wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: var(--orange) !important;
+}
+/* .t-wrapper .swiper-pagination-bullet {
+    background: rgba(255, 255, 255, 1.26) !important;
+} */
+ .t-wrapper .swiper-pagination-bullet {
+    background: #808080 !important;
+}
+
+@media screen and (max-width: 555px) {
+    .t-wrapper {
+        padding: 0;
+    }
+    .testimonial {
+        width: 72%;
+        height: 75%;
+    }
+    .t-wrapper .swiper {
+        height: 79%;
+    }
+    .testimonial > span {
+        font-size: 16px;
+    }
+    .t-reviewer > img {
+        width: 4rem;
+        height: 4rem;
+    }
+    .t-reviewer span {
+        text-align: center;
+        font-size: 18px;
+    }
+}

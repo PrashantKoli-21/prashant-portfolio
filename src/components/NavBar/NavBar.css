@@ -1,0 +1,113 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left {
+    display: flex;
+    flex: 1;
+    align-items: center;    
+    gap: 2rem;
+}
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list {
+    flex: 10;
+}
+.n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 3rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+.n-list > ul > li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+.n-button {
+    flex: 2;
+}
+
+@media screen and (max-width: 1024px){
+    .n-list > ul {
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .n-left {    
+        gap: 1rem;
+    }
+    .n-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+    }
+    .n-list > ul {
+        gap: 0.5rem;
+        margin-right: 0;
+    }
+    .n-list > ul > li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 780px) {    
+    .n-left {    
+        gap: 0.5rem;
+    }
+    .n-name {
+        font-size: 20px;
+    }
+    .n-list > ul {
+        margin: 0;
+        padding: 0;
+        gap: 10px;
+    }
+    .n-list > ul > a > li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .n-wrapper{
+        gap: 10px;
+    }
+    .n-left {
+        gap: 8px;
+    }
+    .n-right {
+        gap: 0.6rem;
+    }
+    .n-list > ul {
+        gap: 6px;
+    }
+    .n-list > ul > a > li {
+        font-size: 12px;
+    }
+    .n-button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .n-list {
+        display: none;
+    }
+    .n-button {
+        font-size: 14px;
+        padding: 9px 24px 9px 24px;
+    }
+}

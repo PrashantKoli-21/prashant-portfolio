@@ -1,0 +1,202 @@
+.mylearnings {
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    height: 70vh;
+    margin-top: 4rem;
+}
+.m-left {
+    width: 50%;
+}
+.m-right {
+    position: relative;
+}
+.m-mainCircle {
+    position: relative;
+    left: 9rem;    
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background: white;
+}
+.m-mainCircle > * {
+    position: absolute;
+}
+.m-mainCircle > :nth-child(1) {
+    top: -3rem;
+    left: 6rem;
+}
+.m-mainCircle > :nth-child(2) {
+    left: -3rem;
+    top: 5rem;
+}
+.m-mainCircle > :nth-child(3) {
+    left: 6rem;
+    top: 5rem;
+}
+.m-mainCircle > :nth-child(4) {
+    left: 15rem;
+    top: 5rem;
+}
+.m-mainCircle > :nth-child(5) {
+    left: 6rem;
+    top: 13rem;
+}
+.m-secCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    background: white;
+    box-shadow: var(--smboxShadow);
+}
+.m-secCircle > img {
+    transform: scale(0.6);
+}
+.m-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.blueCircle {
+    background: #1949B8;
+    left: 18rem;
+    top: 0rem;
+}
+.yellowCircle {
+    background: #F5C32C;
+    left: 18rem;
+    top: 8rem;
+}
+
+@media screen and (max-width: 1270px) {
+    .m-right {
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .mylearnings {
+        flex-direction: column;
+        gap: 4rem;
+        margin-bottom: 22rem;
+    }
+    .m-left {
+        width: 100%;
+    }
+    .m-right {
+        width: 0;        
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mylearnings {
+        padding: 0 3rem 0 0rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .m-right {
+        left: -5rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .m-right {
+        left: -7.5rem;
+    }
+    .m-mainCircle {
+        width: 15rem;
+        height: 15rem;
+    }
+    .m-mainCircle > * {
+        height: 4rem;
+        width: 4rem;
+    }
+    .m-mainCircle > :nth-child(1) {
+        top: -2rem;
+        left: 5.5rem;
+    }
+    .m-mainCircle > :nth-child(2) {
+        left: -2rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(3) {
+        left: 5.5rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(4) {
+        left: 12.5rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(5) {
+        left: 5.5rem;
+        top: 12.5rem;
+    }
+    .m-secCircle > img {
+        transform: scale(0.45);
+    }
+    .m-backCircle {
+        height: 11rem;
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .p-left > :nth-child(3) {
+        padding: 1rem 0rem;
+    }
+    .p-left a {
+        padding-left: 5rem;
+    }
+    .m-mainCircle {
+        width: 13rem;
+        height: 13rem;
+    }
+    .m-mainCircle > * {
+        height: 3rem;
+        width: 3rem;
+    }
+    .m-mainCircle > :nth-child(1) {
+        top: -1.5rem;
+        left: 4.7rem;
+    }
+    .m-mainCircle > :nth-child(2) {
+        left: -1.5rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(3) {
+        left: 4.7rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(4) {
+        left: 11rem;
+        /* top: 5rem; */
+    }
+    .m-mainCircle > :nth-child(5) {
+        left: 4.7rem;
+        top: 11rem;
+    }
+    .m-secCircle > img {
+        transform: scale(0.3);
+    }
+    .m-backCircle {
+        height: 8rem;
+        width: 8rem;
+    }
+    .blueCircle {
+        left: 17rem;
+        top: 1rem;
+    }
+    .yellowCircle {
+        left: 17rem;
+        top: 7rem;
+    }
+}
