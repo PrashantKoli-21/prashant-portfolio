@@ -8,17 +8,9 @@
     box-shadow: var(--boxShadow);
     border-radius: 17px;
 }
-/* .floatingBlocks > img {
-    transform: scale(0.4);
-} */
 .boyImage > img {
     transform: scale(0.4);
 }
-/* .floatingBlocks > span {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: black;
-} */
  .applicationDeveloper > span {
     font-family: sans-serif;
     font-size: 16px;
@@ -37,13 +29,9 @@
         right: 1rem;
     }
     .applicationDeveloper {
-            /* left: 5rem; */
-    position: relative;
-    display: flex;
-    /* align-items: center; */
-    /* gap: 0rem; */
-    right: 1.5rem;
-
+        position: relative;
+        display: flex;
+        right: 1.5rem;
     }
 }
 
@@ -62,9 +50,7 @@
         right: 2.9rem;
     }
     .applicationDeveloper > span {
-        /* font-family: sans-serif; */
         font-size: 14px;
-        /* color: black; */
     }
 }
 
@@ -80,9 +66,7 @@
         right: 3.7rem;
     }
     .applicationDeveloper > span {
-        /* font-family: sans-serif; */
         font-size: 11px;
-        /* color: black; */
     }
 }
 
@@ -102,8 +86,6 @@
         right: 4.5rem;
     }
     .applicationDeveloper > span {
-        /* font-family: sans-serif; */
         font-size: 8px;
-        /* color: black; */
     }
 }

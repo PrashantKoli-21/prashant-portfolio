@@ -1,7 +1,6 @@
 .footer {
     display: flex;
     align-items: center;
-    /* margin: -0.5rem -3.5rem; */
     position: absolute;
     margin-top: -12rem;
     margin-left: -3.5rem;
@@ -20,10 +19,4 @@
 .f-icons {
     display: flex;
     gap: 2rem;
-}
-
-@media screen and (max-width: 972px) {
-    /* .footer img {
-        width: calc(50vw + 85%) !important;
-    } */
 }

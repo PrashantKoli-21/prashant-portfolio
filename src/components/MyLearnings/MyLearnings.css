@@ -126,15 +126,12 @@
     }
     .m-mainCircle > :nth-child(2) {
         left: -2rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(3) {
         left: 5.5rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(4) {
         left: 12.5rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(5) {
         left: 5.5rem;
@@ -170,15 +167,12 @@
     }
     .m-mainCircle > :nth-child(2) {
         left: -1.5rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(3) {
         left: 4.7rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(4) {
         left: 11rem;
-        /* top: 5rem; */
     }
     .m-mainCircle > :nth-child(5) {
         left: 4.7rem;

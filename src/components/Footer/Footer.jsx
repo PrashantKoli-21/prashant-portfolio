@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 import './Footer.css';
 
-// import Insta from '@iconscout/react-unicons/icons/uil-instagram';
 import GitHub from '@iconscout/react-unicons/icons/uil-github';
 import LinkedIn from '@iconscout/react-unicons/icons/uil-linkedin';
 

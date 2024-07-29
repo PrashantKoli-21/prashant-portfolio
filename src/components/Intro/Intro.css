@@ -46,7 +46,6 @@
     cursor: pointer;
 }
 
-
 .i-right {
     flex: 1;
     position: relative;
@@ -102,24 +101,18 @@
     height: 11rem;
     left: -9rem;
 }
-/* .mobileDeveloper-motion {
-    left: 0%;
-} */
 
 @media screen and (max-width: 1200px) {
     .i-right > :nth-child(1) {
         transform: scale(0.55);
-        /* left: -20%; */
         left: -5.2rem;
     }
     .i-right > :nth-child(2) {
-        /* top: -4.6rem; */
         transform: scale(0.48);
         left: -6rem;
     }
     .i-right > :nth-child(3) {
         transform: scale(1);
-        /* left: 24%; */
         left: 6.3rem;
     }
     .i-right > :nth-child(4) {
@@ -128,7 +121,6 @@
     }
     .web-developer {
         top: 2rem !important;
-        /* left: 62% !important; */
     }
     .mobile-developer {
         top: 16rem !important;

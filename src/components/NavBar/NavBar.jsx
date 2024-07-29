@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-scroll";
+import React from 'react';
+import { Link } from 'react-scroll';
 import './NavBar.css';
-import { buttonTexts, navBarList } from "../../assets/strings/strings";
-import Toggle from "../Toggle/Toggle";
+import { buttonTexts, navBarList } from '../../assets/strings/strings';
+import Toggle from '../Toggle/Toggle';
 
 const NavBar = () => {
     return (
@@ -19,7 +19,9 @@ const NavBar = () => {
                         }
                     </ul>
                 </div>
-                    <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'><button className='button n-button'>{buttonTexts.contact}</button></Link>
+                    <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                        <button className='button n-button'>{buttonTexts.contact}</button>
+                    </Link>
             </div>
         </div>
     )

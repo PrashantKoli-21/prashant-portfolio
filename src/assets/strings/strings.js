@@ -22,12 +22,9 @@ import MusicApp from '../../assets/imagesAndIcons/musicapp.png';
 import profilePic1 from '../../assets/imagesAndIcons/profile1.jpg';
 import profilePic2 from '../../assets/imagesAndIcons/profile2.jpg';
 import profilePic3 from '../../assets/imagesAndIcons/profile3.jpg';
-// import profilePic4 from '../../assets/imagesAndIcons/profile4.jpg';
+import profilePic4 from '../../assets/imagesAndIcons/profile4.jpg';
 import profilePic5 from '../../assets/imagesAndIcons/profile5.jpg';
 import profilePic6 from '../../assets/imagesAndIcons/profile6.jpg';
-import Sourav from '../../assets/imagesAndIcons/Sourav_Kumar_Swain.jpg';
-import Geetha from '../../assets/imagesAndIcons/Geetha_Vemula.jpg';
-
 
 export const navBarList = [
     {listItem: 'Home', redirectTo: 'NavBar'},
@@ -207,7 +204,9 @@ export const myCssExpertieseImages = [
     },
 ];
 
-export const seniorsAndColleahues = [
+export const testimonialsStrings = ['What my ', 'Seniors and Colleagues ', 'say about me...'];
+
+export const seniorsAndColleagues = [
     {
         src: profilePic1,
         name: 'Kotham Raj',
@@ -227,7 +226,7 @@ export const seniorsAndColleahues = [
         review: `Prashant is a skilled React developer with a strong command of React and JavaScript. He excels in designing and solving bugs, with a particular talent for creating responsive UIs and developing reusable components. His expertise ensures efficient and high-quality development, making him a valuable asset in frontend development.`,
     },
     {
-        src: Geetha,
+        src: profilePic4,
         name: 'Geetha Vemula',
         post: 'Software Engineer II',
         review: `Prashant is skilled in working with tables and API responses. His hands-on experience with CSS is commendable, enabling him to create common table components that can be reused across the frontend. Additionally, his work on graph UIs is impressive, showcasing his versatility in frontend    development.`,
@@ -239,7 +238,7 @@ export const seniorsAndColleahues = [
         review: `Prashant is a talented developer with a solid understanding of Next.js, particularly in page routing and CSS. He excels in developing responsive user interfaces from scratch, creating seamless and intuitive navigation experiences. His skills ensure applications perform well across various devices and screen sizes, showcasing his commitment to delivering high-quality and user-friendly frontend solutions`,
     },
     {
-        src: Sourav,
+        src: profilePic4,
         name: 'Sourav Kumar Swain',
         post: 'Software Engineer',
         review: `Prashant is excellent with HTML and CSS. His work in designing fully responsive web pages is fantastic, showcasing his outstanding understanding of HTML tags and CSS classes. He also excels in developing user input forms, demonstrating his attention to detail and proficiency in frontend development.`,
@@ -250,4 +249,4 @@ export const seniorsAndColleahues = [
         post: 'Software Engineer',
         review: `Prashant's work in forms is excellent. His CSS expertise enables him to create user-friendly UIs that are responsive across all screen sizes. His understanding of React libraries and packages and their efficient usage is fabulous. Additionally, Prashant excels at guiding juniors in building code that is ready for deployment and production.`,
     }
-]
+];

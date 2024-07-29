@@ -3,7 +3,6 @@
     display: flex;
     height: 80vh;
     margin-top: 4rem;
-      /* scroll */
   padding-top: 3rem;
 }
 
@@ -59,9 +58,6 @@ textarea{
 }
 
 @media screen and (max-width: 600px) {
-    /* .c-right .user {
-        width: 9rem;
-    } */
     .contact-form .p-left {
         margin-right: 0;
     } 
@@ -71,9 +67,3 @@ textarea{
         margin-bottom: 4rem;
      }
 }
-
-/* @media screen and (max-width: 440px) {
-    .c-right .user {
-        width: 7rem;
-    }
-} */

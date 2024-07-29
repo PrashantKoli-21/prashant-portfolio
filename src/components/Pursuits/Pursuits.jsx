@@ -1,12 +1,12 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './Pursuits.css';
 
-import PursuitsCard from "../PursuitsCard/PursuitsCard";
+import PursuitsCard from '../PursuitsCard/PursuitsCard';
 
 import MyResume from '../../assets/files/MyResume.pdf';
-import { pursuitCards, pursuitsTexts } from "../../assets/strings/strings";
-import { themeContext } from "../../Context";
+import { pursuitCards, pursuitsTexts } from '../../assets/strings/strings';
+import { themeContext } from '../../Context';
 
 const Pursuits = () => {
 
@@ -25,8 +25,6 @@ const Pursuits = () => {
 
     const getDynamicStyle = (heading) => {
         let style = {};
-        console.log(`Viewport Width: ${viewportWidth}`);
-        console.log(`Viewport Width: ${heading}`);
         if (heading === 'Front-End Development') {
             if(viewportWidth <= 1350 && viewportWidth >= 1151) {
             style.left = '7rem';
@@ -45,10 +43,8 @@ const Pursuits = () => {
                 style.left = '-7rem';
             } else if(viewportWidth <= 700 && viewportWidth > 490) {
                 style.left = '-6rem';
-                // style.left = '-7rem';
             } else if(viewportWidth <= 490) {
                 style.left = '-3rem';
-                // style.left = '-7rem';
             } else {
             style.top = '12rem';
             style.left = '-11rem';
@@ -66,7 +62,6 @@ const Pursuits = () => {
                 style.left = '12rem';
             }
         }
-        console.log('style: ', style);
         return style;
     };
 
@@ -83,7 +78,7 @@ const Pursuits = () => {
                 <a href={MyResume} download>
                     <button className='button p-button'>Download CV</button>
                 </a>
-                <div className='blur p-blur1'></div>
+                <div className='blur p-blur1' />
             </div>
             <div className='p-right'>
                 {
@@ -103,25 +98,7 @@ const Pursuits = () => {
                         </motion.div>
                     )
                 }
-                {/* {
-                    pursuitCards.map((item, k) => 
-                        <motion.div
-                            key={k}
-                            style={getDynamicStyle(item.heading)}
-                            // className={}
-                            whileInView={item.whileInView}
-                            initial={item.initial}
-                            transition={transition}
-                        >
-                            <PursuitsCard
-                                emoji={item.emoji}
-                                heading={item.heading}
-                                content={item.content}
-                             />
-                        </motion.div>
-                    )
-                } */}
-                <div className='blur p-blur2'></div>
+                <div className='blur p-blur2' />
             </div>
         </div>
     )

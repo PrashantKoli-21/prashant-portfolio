@@ -1,9 +1,9 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import './MyLearnings.css';
-import { buttonTexts, myLearningsImages, myLearningsTexts } from "../../assets/strings/strings";
-import { themeContext } from "../../Context";
-import { Link } from "react-scroll";
+import { buttonTexts, myLearningsImages, myLearningsTexts } from '../../assets/strings/strings';
+import { themeContext } from '../../Context';
+import { Link } from 'react-scroll';
 
 const MyLearnings = () => {
 
@@ -15,11 +15,11 @@ const MyLearnings = () => {
         <div className='p-left m-left'>
                 <span style={{color: darkMode ? 'white' : ''}}>{myLearningsTexts.myLearnings}</span>
                 <span>{myLearningsTexts.frontendDevelopment}</span>
-                <span>{myLearningsTexts.content}</span>
-                
-                    <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'><button className='button p-button'>{buttonTexts.hireMe}</button></Link>
-                
-                <div className='blur p-blur1'></div>
+                <span>{myLearningsTexts.content}</span>                
+                <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'>
+                    <button className='button p-button'>{buttonTexts.hireMe}</button>
+                </Link>                
+                <div className='blur p-blur1' />
             </div>
             <div className='m-right'>
                 <motion.div
@@ -37,8 +37,8 @@ const MyLearnings = () => {
                         )
                     }
                 </motion.div>
-                <div className='m-backCircle blueCircle'></div>
-                <div className='m-backCircle yellowCircle'></div>
+                <div className='m-backCircle blueCircle' />
+                <div className='m-backCircle yellowCircle' />
             </div>
         </div>
     )

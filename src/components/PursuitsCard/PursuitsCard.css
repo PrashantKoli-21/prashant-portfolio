@@ -32,7 +32,6 @@
 
 @media screen and (max-width: 1350px) {
     .pursuits-card {
-        /* gap: 1rem; */
         width: 8rem;
         height: 11rem;
     }
@@ -40,7 +39,6 @@
 
 @media screen and (max-width: 1150px) {
     .pursuits-card {
-        /* gap: 1rem; */
         width: 5rem;
         height: 9rem;
     }
@@ -52,11 +50,9 @@
         font-size: 10px;
     }
     .pursuits-card > img.is-heartemoji {
-        /* transform: scale(0.6); */
         margin-bottom: -3rem;
     }
     .pursuits-card > img.is-not-heartemoji {
-        /* transform: scale(0.6); */
         margin-bottom: -2rem;
     }
 }

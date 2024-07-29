@@ -3,16 +3,16 @@ import './Testimonials.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { seniorsAndColleahues } from '../../assets/strings/strings';
+import { seniorsAndColleagues, testimonialsStrings } from '../../assets/strings/strings';
 import { Pagination } from 'swiper/modules';
 
 const Testimonials = () => {
     return (
         <div className='t-wrapper' id='Testimonials'>
             <div className='t-heading'>
-                <span>What my </span>
-                <span>Seniors and Colleagues </span>
-                <span>say about me...</span>
+                {
+                    testimonialsStrings.map((item, k) => <span key={k}>{item}</span>)
+                }
                 <div className='blur t-blur1' />
                 <div className='blur t-blur2' />
             </div>
@@ -22,7 +22,7 @@ const Testimonials = () => {
                 pagination={{clickable: true}}
             >                
                     {
-                        seniorsAndColleahues.map((item, k) =>
+                        seniorsAndColleagues.map((item, k) =>
                             <SwiperSlide>
                                 <div key={k} className='testimonial'>
                                     <div className='t-reviewer'>

@@ -45,15 +45,14 @@
 .t-reviewer {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     gap: 0.5rem;
 }
-.t-reviewer > img {
+/* .t-reviewer > img {
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
-}
+} */
 .testimonial > span {
     color: var(--gray);
     text-align: center;
@@ -70,9 +69,6 @@
 .t-wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: var(--orange) !important;
 }
-/* .t-wrapper .swiper-pagination-bullet {
-    background: rgba(255, 255, 255, 1.26) !important;
-} */
  .t-wrapper .swiper-pagination-bullet {
     background: #808080 !important;
 }

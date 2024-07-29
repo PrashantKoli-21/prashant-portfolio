@@ -1,12 +1,12 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import './Intro.css'
 
-import FloatingBlocks from "../FloatingBlocks/FloatingBlocks";
+import FloatingBlocks from '../FloatingBlocks/FloatingBlocks';
 
-import { buttonTexts, introRightSection, myInterests, myIntro, mySocials } from "../../assets/strings/strings";
-import { themeContext } from "../../Context";
-import { Link } from "react-scroll";
+import { buttonTexts, introRightSection, myInterests, myIntro, mySocials } from '../../assets/strings/strings';
+import { themeContext } from '../../Context';
+import { Link } from 'react-scroll';
 
 const Intro = () => {
 
@@ -31,10 +31,9 @@ const Intro = () => {
           }
         };
     
-        updateScreenSize(); // Initial check
+        updateScreenSize();
         window.addEventListener('resize', updateScreenSize);
     
-        // Cleanup listener on component unmount
         return () => window.removeEventListener('resize', updateScreenSize);
       }, []);
 
@@ -64,11 +63,6 @@ const Intro = () => {
                 </div>
             </div>
             <div className='i-right'>
-                {/* {
-                    introRightSection.map((item, e) => 
-                        { item.animation === 'motion' : <motion.img initial={{left: '-36%'}} whileInView={{left: '-24%'}} transition={transition} src={item.src} alt={item.alt} /> : <img src={item.src} alt={item.alt} key={e} />}
-                    )
-                } */}
                 {
                     introRightSection.map((item, e) => 
                         item.animation === 'motion' ? 
@@ -99,8 +93,8 @@ const Intro = () => {
                         </motion.div>
                     )
                 }
-                <div className='blur'></div>
-                <div className='blur blue'></div>
+                <div className='blur' />
+                <div className='blur blue' />
             </div>
         </div>
     )
