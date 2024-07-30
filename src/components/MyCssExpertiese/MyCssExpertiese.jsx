@@ -4,7 +4,7 @@ import './MyCssExpertiese.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { myCssExpertieseImages } from '../../assets/strings/strings';
+import { myCssExpertiseImages, myCssExpertiseTexts } from '../../assets/strings/strings';
 import { themeContext } from '../../Context';
 
 const MyCssExpertiese = () => {
@@ -14,8 +14,8 @@ const MyCssExpertiese = () => {
 
     return (
         <div className='mycssExpertiese' id='MyCssExpertiese'>
-            <span style={{color: darkMode ? 'white' : ''}}>My Expertiese In</span>
-            <span>CSS</span>
+            <span style={{color: darkMode ? 'white' : ''}}>{myCssExpertiseTexts.myExpertise}</span>
+            <span>{myCssExpertiseTexts.css}</span>
 
             <Swiper
                 spaceBetween={30}
@@ -24,7 +24,7 @@ const MyCssExpertiese = () => {
                 className='mycssExpertiese-slider'
             >                
                     {
-                        myCssExpertieseImages.map((item, k) =>
+                        myCssExpertiseImages.map((item, k) =>
                             <SwiperSlide>
                                 <img src={item.src} alt={item.alt} key={k} />
                             </SwiperSlide>

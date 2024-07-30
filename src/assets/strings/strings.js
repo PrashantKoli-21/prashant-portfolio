@@ -30,7 +30,7 @@ export const navBarList = [
     {listItem: 'Home', redirectTo: 'NavBar'},
     {listItem: 'Pursuits', redirectTo: 'Pursuits'},
     {listItem: 'Experience', redirectTo: 'Experience'},
-    {listItem: 'Portfolio', redirectTo: 'MyCssExpertiese'},
+    {listItem: 'Expertise', redirectTo: 'MyCssExpertiese'},
     {listItem: 'Testimonials', redirectTo: 'Testimonials'}
 ];
 
@@ -185,7 +185,7 @@ export const myLearningsImages = [
     }
 ];
 
-export const myCssExpertieseImages = [
+export const myCssExpertiseImages = [
     {
         src: Sidebar,
         alt: 'sidebar'
@@ -203,6 +203,11 @@ export const myCssExpertieseImages = [
         alt: 'musicapp'
     },
 ];
+
+export const myCssExpertiseTexts = {
+    myExpertise: 'My Expertise In',
+    css: 'CSS'
+};
 
 export const testimonialsStrings = ['What my ', 'Seniors and Colleagues ', 'say about me...'];
 
@@ -250,3 +255,9 @@ export const seniorsAndColleagues = [
         review: `Prashant's work in forms is excellent. His CSS expertise enables him to create user-friendly UIs that are responsive across all screen sizes. His understanding of React libraries and packages and their efficient usage is fabulous. Additionally, Prashant excels at guiding juniors in building code that is ready for deployment and production.`,
     }
 ];
+
+export const contactMeText = {
+    getInTouch: 'Get in touch',
+    contactMe: 'Contact Me',
+    emailSentSuccessMessage: 'Email has been sent. Thanks for contacting me!'
+};
