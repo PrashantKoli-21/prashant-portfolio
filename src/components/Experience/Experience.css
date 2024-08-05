@@ -46,3 +46,9 @@
         gap: 2rem;
     }    
 }
+
+@media screen and (max-width: 409px) {
+    .experience {
+        padding-top: 8rem;
+    }
+}

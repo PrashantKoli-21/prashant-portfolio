@@ -1,14 +1,17 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './PursuitsCard.css';
 
 const PursuitsCard = ({emoji, heading, content}) => {
 
+    const [isHeartEmoji, setIsHeartEmoji] = useState(false)
+    
     const imageRef = useRef(null);
 
     useEffect(() => {
         const imageElement = imageRef.current;
         if (imageElement) {
-            if (imageElement.src.includes('http://localhost:3000/static/media/heartemoji.26b1b6ed5e0e44083b28.png')) {
+            if (imageElement.src.includes('heartemoji.26b1b6ed5e0e44083b28.png')) {
+                setIsHeartEmoji(true);
                 imageElement.classList.add('is-heartemoji');
                 imageElement.classList.remove('is-not-heartemoji');
             } else {
@@ -19,7 +22,7 @@ const PursuitsCard = ({emoji, heading, content}) => {
     }, [emoji]);
 
     return (
-        <div className='pursuits-card'>
+        <div className={`pursuits-card ${isHeartEmoji ? 'heartemoji-parent' : ''}`}>
             <img ref={imageRef} src={emoji} alt='emoji' />
             <span>{heading}</span>
             <span>{content}</span>

@@ -9,7 +9,7 @@ import Wave from '../../assets/imagesAndIcons/wave.png';
 const Footer = () => {
     return (
         <div className='footer'>
-            <div>
+            <div className='fotterImage'>
                 <img src={Wave} alt='wave' style={{width: '100%'}}/> 
             </div>
             <div className='f-content'>

@@ -12,7 +12,7 @@
     flex-direction: column;
     position: absolute;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 8rem;
     gap: 4rem;
     color: white;
 }
@@ -20,3 +20,35 @@
     display: flex;
     gap: 2rem;
 }
+.f-icons-styles {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    .f-content {
+        margin-top: 7rem;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .f-content {
+        margin-top: 7rem;
+        gap: 1rem;
+    }
+    .fotterImage {
+        position: relative;
+        top: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .f-content {
+        margin-top: 13rem;
+        gap: 1rem;
+    }
+    .fotterImage {
+        position: relative;
+        top: 5rem;
+    }
+} 

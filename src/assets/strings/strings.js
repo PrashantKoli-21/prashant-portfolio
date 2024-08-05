@@ -216,7 +216,7 @@ export const seniorsAndColleagues = [
         src: profilePic1,
         name: 'Kotham Raj',
         post: 'Software Engineer II',
-        review: `Prashant is a proficient React Native developer with a talent for solving bugs and handling stylesheets. His expertise shines in developing user-friendly UIs that precisely match Figma designs. Prashant's attention to detail and problem-solving skills make him a standout in React Native development`,
+        review: `Prashant is a proficient React Native developer with a talent for solving bugs and handling stylesheets. His expertise shines in developing user-friendly UIs that precisely match Figma designs. Prashant's attention to detail and problem-solving skills make him a standout in React Native development.`,
     },
     {
         src: profilePic2,
@@ -234,13 +234,13 @@ export const seniorsAndColleagues = [
         src: profilePic4,
         name: 'Geetha Vemula',
         post: 'Software Engineer II',
-        review: `Prashant is skilled in working with tables and API responses. His hands-on experience with CSS is commendable, enabling him to create common table components that can be reused across the frontend. Additionally, his work on graph UIs is impressive, showcasing his versatility in frontend    development.`,
+        review: `Prashant is skilled in working with tables and API responses. His hands-on experience with CSS is commendable, enabling him to create common table components that can be reused across the frontend. Additionally, his work on graph UIs is impressive, showcasing his versatility in frontend development.`,
     },
     {
         src: profilePic5,
         name: 'Sreeram Subrahmanya',
         post: 'Senior Software Engineer',
-        review: `Prashant is a talented developer with a solid understanding of Next.js, particularly in page routing and CSS. He excels in developing responsive user interfaces from scratch, creating seamless and intuitive navigation experiences. His skills ensure applications perform well across various devices and screen sizes, showcasing his commitment to delivering high-quality and user-friendly frontend solutions`,
+        review: `Prashant is a talented developer with a solid understanding of Next.js, particularly in page routing and CSS. He excels in developing responsive user interfaces from scratch, creating seamless and intuitive navigation experiences. His skills ensure applications perform well across various devices and screen sizes, showcasing his commitment to delivering high-quality and user-friendly frontend solutions.`,
     },
     {
         src: profilePic4,
