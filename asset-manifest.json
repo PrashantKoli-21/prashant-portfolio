@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prashant-portfolio/static/css/main.2dd9207f.css",
-    "main.js": "/prashant-portfolio/static/js/main.52a799c1.js",
+    "main.css": "/prashant-portfolio/static/css/main.83ffb05f.css",
+    "main.js": "/prashant-portfolio/static/js/main.1c2753bb.js",
     "static/js/453.d7ce00bc.chunk.js": "/prashant-portfolio/static/js/453.d7ce00bc.chunk.js",
     "static/media/ecommerce.png": "/prashant-portfolio/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/sidebar.png": "/prashant-portfolio/static/media/sidebar.b2225070b8adae68d063.png",
@@ -18,12 +18,12 @@
     "static/media/Vector2.png": "/prashant-portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/prashant-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/prashant-portfolio/index.html",
-    "main.2dd9207f.css.map": "/prashant-portfolio/static/css/main.2dd9207f.css.map",
-    "main.52a799c1.js.map": "/prashant-portfolio/static/js/main.52a799c1.js.map",
+    "main.83ffb05f.css.map": "/prashant-portfolio/static/css/main.83ffb05f.css.map",
+    "main.1c2753bb.js.map": "/prashant-portfolio/static/js/main.1c2753bb.js.map",
     "453.d7ce00bc.chunk.js.map": "/prashant-portfolio/static/js/453.d7ce00bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dd9207f.css",
-    "static/js/main.52a799c1.js"
+    "static/css/main.83ffb05f.css",
+    "static/js/main.1c2753bb.js"
   ]
 }
